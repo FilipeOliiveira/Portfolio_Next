@@ -4,6 +4,7 @@ import { FiDownload } from "react-icons/fi";
 //components
 import  Social  from "@/components/Social";
 import { Photo } from "@/components/Photo";
+import { Stats } from "@/components/Stats";
 
 export default function Home() {
   return (
@@ -22,10 +23,16 @@ export default function Home() {
               </p>
               {/* {btn and social} */}
               <div className="flex flex-col xl:flex-row items-center gap-8">
+                <a
+                  href="https://docs.google.com/document/d/e/2PACX-1vQ3BE9QL_XML-7NmiSlZMaylXq_biGPVBdaiWESDhPiEhCSXeA1fCXR0Clqo-47gsIzUfkeRz3nSCAq/pub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                 <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
                   <span>Download CV</span>
                   <FiDownload className="text-xl" />
                 </Button>
+                </a>
                 <div className="mb-8 xl:mb-0">
                    <Social 
                    containerStyles="flex gap-6"
@@ -40,6 +47,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 }
