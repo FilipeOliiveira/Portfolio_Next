@@ -18,29 +18,29 @@ const projects = [
   {
     num: "01",
     category: "back-end",
-    description: "Sistema de um banco em java",
-    stack: [{name: "java"}],
-    image: "/assets/assets/work/thumb1.png",
+    description: "Algoritmo da mochila com Programação Dinâmica",
+    stack: [{name: "c"}],
+    image: "/assets/assets/work/thumb4.png",
     live:"",
     github:"",
   },
   {
     num: "02",
     category: "data",
-    description: "Previsão sazonal para retirada do interfolhados",
-    stack: [{name: "python"}, {name: "power bi"}],
-    image: "/assets/assets/work/thumb2.png",
+    description: "Tipo abstrato de dados lista duplamente encadeada",
+    stack: [{name: "c"}],
+    image: "/assets/assets/work/thumb5.png",
     live:"",
     github:"",
   },
   {
     num: "03",
-    category: "back-end",
-    description: "Analisador Léxico em C",
-    stack: [{name: "C"}],
-    image: "/assets/assets/work/thumb3.png",
-    live:"",
-    github:"",
+    category: "data",
+    description: "Previsão sazonal para retirada do interfolhados",
+    stack: [{name: "python"}, {name: "sarimax"}, {name:"streamlit"}],
+    image: "/assets/assets/work/thumb8.png",
+    live:"https://dashboard-matheus-done.vercel.app/",
+    github:"https://github.com/PedroSantiagoDev/quantum",
   },
 
 
@@ -66,7 +66,7 @@ const Projetos = () => {
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
               {/* {outline num} */}
-              <div className="text-8xl leading-none font-extrabold text-outline">
+              <div className="text-8xl leading-none font-extrabold text-chart">
                 {project.num} 
               </div>
               {/* {projects category} */}
@@ -88,7 +88,7 @@ const Projetos = () => {
               </ul>
               <ul>
                 {/* {border} */}
-                <div className="border border-chartext-chart-1/20"></div>
+                <div className="border border-chartext-chart-1/20 "></div>
                 {/* {buttons} */}
                 <div className="flex items-center gap-4 py-4">
                   {/* {live projects button} */}

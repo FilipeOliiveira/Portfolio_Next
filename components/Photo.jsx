@@ -13,7 +13,7 @@ export const Photo = () => {
                 initial={{ opacity: 0}}
                 animate={{ opacity: 1, transition: {delay:2.4, duration: 0.4, easeIn:"easeInOut"}}}
 
-                className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
+                className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] absolute">
                 <Image src="/assets/assets/foto_portfolio.png" priority quality={100} fill alt="" className="object-contain -translate-y-7 md:-translate-y-9" />
             </motion.div>
 
@@ -28,7 +28,7 @@ export const Photo = () => {
                     cx="253" 
                     cy="253" 
                     r="250" 
-                    stroke="#00ADB5" 
+                    stroke="currentColor" 
                     strokeWidth="4"
                     strokeLinecap ="round"
                     strokeLinejoin="round"
