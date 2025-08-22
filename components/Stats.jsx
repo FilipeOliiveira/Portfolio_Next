@@ -33,7 +33,7 @@ export const Stats = () => {
                         xl:text-6xl font-extrabold" 
                         />
                         <p className={`${item.text.legth <15 ? "max-w-[100px] :" : "max-w-[150px]" }
-                        leading-snug text-white/80`}>{item.text}</p>
+                        leading-snug text-chart-1`}>{item.text}</p>
                     </div>
                     )
                     

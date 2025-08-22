@@ -17,7 +17,7 @@ export default function Home() {
             <h1 className="text-[48px] xl:text-[80px] leading-[1.1] font-semibold mb-6">
               Olá eu sou o <br /> <span className="text-accent">Filipe Oliveira</span>
             </h1>
-              <p className="max-w-[500px] mb-9 text-white/80">
+              <p className="max-w-[500px] mb-9 text-chart-2">
                 Sou um desenvolvedor back-end apaixonado por criar soluções eficientes e escaláveis. 
                 Sempre em busca de desafios que me permitam aprimorar minhas habilidades e contribuir para projetos inovadores.
               </p>

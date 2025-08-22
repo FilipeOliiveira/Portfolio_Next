@@ -14,7 +14,7 @@ export const Photo = () => {
                 animate={{ opacity: 1, transition: {delay:2.4, duration: 0.4, easeIn:"easeInOut"}}}
 
                 className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
-                <Image src="/assets/assets/foto_portfolio.png" priority quality={100} fill alt="" className="object-contain" />
+                <Image src="/assets/assets/foto_portfolio.png" priority quality={100} fill alt="" className="object-contain -translate-y-7 md:-translate-y-9" />
             </motion.div>
 
             {/* {circle} */}
@@ -31,7 +31,7 @@ export const Photo = () => {
                     stroke="#00ADB5" 
                     strokeWidth="4"
                     strokeLinecap ="round"
-                    sotrkeLinejoin="round"
+                    strokeLinejoin="round"
                     initial={{strokeDasharray: "24 10 0 0"}}
                     animate={{
                         strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],

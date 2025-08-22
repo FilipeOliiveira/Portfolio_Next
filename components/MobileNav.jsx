@@ -20,7 +20,7 @@ const links=[
     {
         name: "contato", 
         path: "/contato",
-    },    
+    },      
 ]
 
 export const MobileNav = () => {
